@@ -1,0 +1,54 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="12.240302000000142">
+<testsuite name="sample-test.spec.js" timestamp="1679276655256" hostname="" tests="2" failures="0" skipped="0" time="1.075" errors="0">
+<testcase name="should test Positive response in Get request" classname="sample-test.spec.js:8:1 › should test Positive response in Get request" time="0.348">
+<system-out>
+<![CDATA[
+APIResponse: 200 OK
+  Date: Mon, 20 Mar 2023 01:44:25 GMT
+  Content-Type: application/json; charset=utf-8
+  Transfer-Encoding: chunked
+  Connection: close
+  X-Powered-By: Express
+  X-Ratelimit-Limit: 1000
+  X-Ratelimit-Remaining: 999
+  X-Ratelimit-Reset: 1678356691
+  Vary: Origin, Accept-Encoding
+  Access-Control-Allow-Credentials: true
+  Cache-Control: max-age=43200
+  Pragma: no-cache
+  Expires: -1
+  X-Content-Type-Options: nosniff
+  Etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+  Via: 1.1 vegur
+  CF-Cache-Status: HIT
+  Age: 4591
+  Server-Timing: cf-q-config;dur=6.0000020312145e-06
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1SUYD4kFwX9aCiIz1aE%2FbRCna2pH%2F%2BpdHZT%2Ft5leM1EHQdodljG%2BY6wrLcPFxPjfrvyrXZ6rfuUmidq%2BtXgxVRWNYZ09NNb0nwDWttEkMyPRdbaU2JSDI1wMusGfSBZJ3PtDdO7%2FtcIr5RKZEZyI"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server: cloudflare
+  CF-RAY: 7aaa451729a324c7-HKG
+  Content-Encoding: br
+  alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{
+  userId: [33m1[39m,
+  id: [33m1[39m,
+  title: [32m'sunt aut facere repellat provident occaecati excepturi optio reprehenderit'[39m,
+  body: [32m'quia et suscipit\n'[39m +
+    [32m'suscipit recusandae consequuntur expedita et cum\n'[39m +
+    [32m'reprehenderit molestiae ut ut quas totam\n'[39m +
+    [32m'nostrum rerum est autem sunt rem eveniet architecto'[39m
+}
+]]>
+</system-out>
+</testcase>
+<testcase name="should test Positive response in post request" classname="sample-test.spec.js:15:1 › should test Positive response in post request" time="0.727">
+<system-out>
+<![CDATA[{
+  payload: [ { title: [32m'morpheus'[39m, body: [32m'test'[39m, userId: [33m1[39m } ],
+  id: [33m101[39m
+}
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
